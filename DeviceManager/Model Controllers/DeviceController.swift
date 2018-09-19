@@ -121,11 +121,70 @@ class DeviceController {
     }
     
     func updateDeviceWithPOST(record: String, completion: @escaping (Error?) -> Void) {
-
+        
+        guard let device = deviceDictionary[record] else {
+            fatalError("Unable to retrieve device by key")
+        }
+        
+        let replacementDevice = Device(model: device.model)
+        
+        let request = createRequest(with: replacementDevice, method: .post, record: record)
+        
+        URLSession.shared.dataTask(with: request) { (data, _, error) in
+            
+            if let error = error {
+                NSLog("Error updating device: \(error)")
+                completion(error)
+                return
+            }
+            
+            guard let data = data else {
+                NSLog("No data returned from data task")
+                completion(NSError())
+                return
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)!
+            NSLog(responseString)
+            
+            NSLog("Device and record updated with post")
+            self.deviceDictionary[record] = replacementDevice
+            completion(nil)
+            
+            }.resume()
     }
     
     public func updateDeviceWithPOST2(_ record: String, completion: @escaping (Error?) -> Void) {
-
+        guard let device = deviceDictionary[record] else {
+            fatalError("Unable to retrieve device by key.")
+        }
+        
+        // Assign it a new UUID string
+        let replacementDevice = Device(model: device.model)
+        let request = createRequest(with: replacementDevice, method: .post)
+        
+        // Start URL session
+        let task = URLSession.shared.dataTask(with: request) { (data, _, error) in
+            if let error = error {
+                NSLog("Error POSTing new device: \(error)")
+                completion(error)
+                return
+            }
+            
+            guard let data = data else {
+                NSLog("Data was not recieved from service")
+                completion(NSError())
+                return
+            }
+            
+            let response = String(data: data, encoding: .utf8)!
+            NSLog(response)
+            
+            NSLog("Device UUID string updated with post")
+            self.deviceDictionary[record] = replacementDevice
+            completion(nil)
+        }
+        task.resume()
         
     }
     
