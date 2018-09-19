@@ -50,7 +50,41 @@ class DeviceController {
     }
     
     func postDevice(device: Device, completion: @escaping (Error?) -> Void) {
-
+        let request = createRequest(with: device, method: .post)
+        
+        URLSession.shared.dataTask(with: request) { (data, _, error) in
+            if let error = error {
+                NSLog("Error posting new device: \(error)")
+                completion(error)
+                return
+            }
+            
+            guard let data = data else {
+                NSLog("No data returned")
+                completion(NSError())
+                return
+            }
+            
+            do {
+                let postReply = try JSONDecoder().decode([String:String].self, from: data)
+                let keys = Array(postReply.keys)
+                
+                guard keys.count == 1, keys[0] == "name" else {
+                    NSLog("Post not succedssful")
+                    completion(NSError())
+                    return
+                }
+                
+                self.deviceDictionary[postReply["name"]!] = device
+                print("Post was successful")
+                completion(nil)
+                
+            } catch {
+                NSLog("Error decoding data: \(error)")
+                completion(error)
+                return
+            }
+        }
     }
     
     // Update the device's unique identifier (PUT)
