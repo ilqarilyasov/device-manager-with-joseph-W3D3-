@@ -84,12 +84,39 @@ class DeviceController {
                 completion(error)
                 return
             }
-        }
+        }.resume()
     }
     
     // Update the device's unique identifier (PUT)
     func updateDevice(record: String, completion: @escaping (Error?) -> Void) {
-
+        
+        guard let device = deviceDictionary[record] else {
+            fatalError("Unanle to retreive device by key")
+        }
+        
+        let replacementDevice = Device.init(model: device.model)
+        
+        let request = createRequest(with: replacementDevice, method: .put, record: record)
+        
+        URLSession.shared.dataTask(with: request) { (data, _, error) in
+            if let error = error {
+                NSLog("Error updating \(replacementDevice): \(error)")
+                completion(error)
+                return
+            }
+            
+            guard let data = data else {
+                NSLog("No data returned")
+                completion(NSError())
+                return
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)!
+            NSLog(responseString)
+            NSLog("Device updated with PUT")
+            self.deviceDictionary[record] = replacementDevice
+            completion(nil)
+        }.resume()
         
     }
     
