@@ -1,0 +1,569 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DeviceDetailViewController"
+provides-nominal:
+- "13DeviceManager0A20DetailViewControllerC"
+provides-member:
+- ["13DeviceManager0A20DetailViewControllerC", ""]
+provides-dynamic-lookup:
+- "identifierLabel"
+- "modelLabel"
+- "postDevice"
+- "postDevice2"
+- "putDevice"
+- "recordLabel"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Device"
+- "DeviceController"
+- "DeviceDetailViewController"
+- !private "DispatchQueue"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "StringLiteralType"
+- "UILabel"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "device"]
+- !private ["s7CVarArgP", "deviceController"]
+- !private ["s7CVarArgP", "identifierLabel"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "modelLabel"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "recordIndex"]
+- !private ["s7CVarArgP", "recordLabel"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "updateViews"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "device"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceController"]
+- !private ["s28CustomDebugStringConvertibleP", "identifierLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "modelLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "recordIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "recordLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "updateViews"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "device"]
+- !private ["s23CustomStringConvertibleP", "deviceController"]
+- !private ["s23CustomStringConvertibleP", "identifierLabel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "modelLabel"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "recordIndex"]
+- !private ["s23CustomStringConvertibleP", "recordLabel"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "updateViews"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "model"]
+- !private ["Se", "rawValue"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["Se", "uuid"]
+- !private ["13DeviceManager0A0V", "model"]
+- !private ["13DeviceManager0A0V", "uuid"]
+- !private ["13DeviceManager0A10ControllerC", "keys"]
+- !private ["13DeviceManager0A10ControllerC", "updateDevice"]
+- !private ["13DeviceManager0A10ControllerC", "updateDeviceWithPOST"]
+- !private ["13DeviceManager0A10ControllerC", "updateDeviceWithPOST2"]
+- ["13DeviceManager0A20DetailViewControllerC", "Device"]
+- ["13DeviceManager0A20DetailViewControllerC", "DeviceController"]
+- !private ["13DeviceManager0A20DetailViewControllerC", "DispatchQueue"]
+- ["13DeviceManager0A20DetailViewControllerC", "Int"]
+- ["13DeviceManager0A20DetailViewControllerC", "UILabel"]
+- ["13DeviceManager0A20DetailViewControllerC", "device"]
+- ["13DeviceManager0A20DetailViewControllerC", "deviceController"]
+- ["13DeviceManager0A20DetailViewControllerC", "identifierLabel"]
+- ["13DeviceManager0A20DetailViewControllerC", "init"]
+- ["13DeviceManager0A20DetailViewControllerC", "modelLabel"]
+- ["13DeviceManager0A20DetailViewControllerC", "postDevice"]
+- ["13DeviceManager0A20DetailViewControllerC", "postDevice2"]
+- !private ["13DeviceManager0A20DetailViewControllerC", "print"]
+- ["13DeviceManager0A20DetailViewControllerC", "putDevice"]
+- ["13DeviceManager0A20DetailViewControllerC", "recordIndex"]
+- ["13DeviceManager0A20DetailViewControllerC", "recordLabel"]
+- !private ["13DeviceManager0A20DetailViewControllerC", "updateViews"]
+- ["13DeviceManager0A20DetailViewControllerC", "viewDidLoad"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "model"]
+- !private ["SE", "rawValue"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SE", "uuid"]
+- !private ["SQ", "DispatchQueue"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "device"]
+- !private ["SQ", "deviceController"]
+- !private ["SQ", "identifierLabel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "modelLabel"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "recordIndex"]
+- !private ["SQ", "recordLabel"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- !private ["SQ", "updateViews"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "DispatchQueue"]
+- ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "device"]
+- !private ["SH", "deviceController"]
+- !private ["SH", "identifierLabel"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "modelLabel"]
+- !private ["SH", "print"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "recordIndex"]
+- !private ["SH", "recordLabel"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- !private ["SH", "updateViews"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["13DeviceManager5ModelO", "deinit"]
+- !private ["13DeviceManager5ModelO", "rawValue"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "device"]
+- !private ["So8NSCodingP", "deviceController"]
+- !private ["So8NSCodingP", "identifierLabel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "modelLabel"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "recordIndex"]
+- !private ["So8NSCodingP", "recordLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "updateViews"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "device"]
+- !private ["So26NSExtensionRequestHandlingP", "deviceController"]
+- !private ["So26NSExtensionRequestHandlingP", "identifierLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "modelLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "recordIndex"]
+- !private ["So26NSExtensionRequestHandlingP", "recordLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "updateViews"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Device"]
+- ["So8NSObjectC", "DeviceController"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "device"]
+- ["So8NSObjectC", "deviceController"]
+- ["So8NSObjectC", "identifierLabel"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "modelLabel"]
+- ["So8NSObjectC", "postDevice"]
+- ["So8NSObjectC", "postDevice2"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "putDevice"]
+- ["So8NSObjectC", "recordIndex"]
+- ["So8NSObjectC", "recordLabel"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "updateViews"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "device"]
+- !private ["So8NSObjectP", "deviceController"]
+- !private ["So8NSObjectP", "identifierLabel"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "modelLabel"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "recordIndex"]
+- !private ["So8NSObjectP", "recordLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "updateViews"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "text"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "device"]
+- !private ["So21UIAppearanceContainerP", "deviceController"]
+- !private ["So21UIAppearanceContainerP", "identifierLabel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "modelLabel"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "recordIndex"]
+- !private ["So21UIAppearanceContainerP", "recordLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "updateViews"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "device"]
+- !private ["So18UIContentContainerP", "deviceController"]
+- !private ["So18UIContentContainerP", "identifierLabel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "modelLabel"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "recordIndex"]
+- !private ["So18UIContentContainerP", "recordLabel"]
+- !private ["So18UIContentContainerP", "updateViews"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "device"]
+- !private ["So18UIFocusEnvironmentP", "deviceController"]
+- !private ["So18UIFocusEnvironmentP", "identifierLabel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "modelLabel"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "recordIndex"]
+- !private ["So18UIFocusEnvironmentP", "recordLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "updateViews"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "device"]
+- !private ["So30UIPasteConfigurationSupportingP", "deviceController"]
+- !private ["So30UIPasteConfigurationSupportingP", "identifierLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "modelLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "recordIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "recordLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateViews"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Device"]
+- ["So11UIResponderC", "DeviceController"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "device"]
+- ["So11UIResponderC", "deviceController"]
+- ["So11UIResponderC", "identifierLabel"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "modelLabel"]
+- ["So11UIResponderC", "postDevice"]
+- ["So11UIResponderC", "postDevice2"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "putDevice"]
+- ["So11UIResponderC", "recordIndex"]
+- ["So11UIResponderC", "recordLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "updateViews"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "device"]
+- !private ["So30UIResponderStandardEditActionsP", "deviceController"]
+- !private ["So30UIResponderStandardEditActionsP", "identifierLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "modelLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "recordIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "recordLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "updateViews"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "device"]
+- !private ["So16UIStateRestoringP", "deviceController"]
+- !private ["So16UIStateRestoringP", "identifierLabel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "modelLabel"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "recordIndex"]
+- !private ["So16UIStateRestoringP", "recordLabel"]
+- !private ["So16UIStateRestoringP", "updateViews"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "device"]
+- !private ["So18UITraitEnvironmentP", "deviceController"]
+- !private ["So18UITraitEnvironmentP", "identifierLabel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "modelLabel"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "recordIndex"]
+- !private ["So18UITraitEnvironmentP", "recordLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "updateViews"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "device"]
+- !private ["So23UIUserActivityRestoringP", "deviceController"]
+- !private ["So23UIUserActivityRestoringP", "identifierLabel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "modelLabel"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "recordIndex"]
+- !private ["So23UIUserActivityRestoringP", "recordLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "updateViews"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Device"]
+- ["So16UIViewControllerC", "DeviceController"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "device"]
+- ["So16UIViewControllerC", "deviceController"]
+- ["So16UIViewControllerC", "identifierLabel"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "modelLabel"]
+- ["So16UIViewControllerC", "postDevice"]
+- ["So16UIViewControllerC", "postDevice2"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "putDevice"]
+- ["So16UIViewControllerC", "recordIndex"]
+- ["So16UIViewControllerC", "recordLabel"]
+- ["So16UIViewControllerC", "updateViews"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "device"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifierLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modelLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recordIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recordLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "13DeviceManager0A0V"
+- !private "13DeviceManager0A10ControllerC"
+- "13DeviceManager0A20DetailViewControllerC"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "13DeviceManager5ModelO"
+- !private "SM"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0ed699a3ff0d72ffff83a08a1852206c"

@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "15570591ec60f40ce0f3a4b70f7b77f1"
+build_time: [1537371041, 558134000]
+inputs:
+  "/Users/Joseph/Downloads/DeviceManager 2/DeviceManager/Models/Device.swift": [1536779402, 0]
+  "/Users/Joseph/Downloads/DeviceManager 2/DeviceManager/View Controllers/DeviceDetailViewController.swift": [1536782721, 0]
+  "/Users/Joseph/Downloads/DeviceManager 2/DeviceManager/View Controllers/DeviceTableViewController.swift": [1536781838, 0]
+  "/Users/Joseph/Downloads/DeviceManager 2/DeviceManager/Model Controllers/DeviceController.swift": [1537370941, 0]
+  "/Users/Joseph/Downloads/DeviceManager 2/DeviceManager/Utilities/HTTPMethod.swift": [1536767396, 0]
+  "/Users/Joseph/Downloads/DeviceManager 2/DeviceManager/Resources/AppDelegate.swift": [1536771160, 0]
